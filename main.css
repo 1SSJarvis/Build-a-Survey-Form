@@ -1,0 +1,38 @@
+html {
+  background: linear-gradient(0deg, #ffbb80, #3382d6);
+  min-height: 100%;
+}
+
+#title {
+  text-align: center;
+  font-family: system-ui;
+  color: white;
+  line-height: 1.5;
+}
+
+#thanks {
+    text-align: center;
+    font-family: system-ui;
+    color: white;
+    letter-spacing: 2px;
+    line-height: 0.5;
+}
+
+#description {
+    text-align: center;
+    font-family: system-ui;
+    color: white;
+    font-style: italic;
+    font-size: 20px
+}
+
+#survey-form {
+    text-align: center;
+    color: white;
+    font-family: system-ui;
+}
+
+.text-questions {
+    font-weight: bold;
+    font-size: 18px
+}
