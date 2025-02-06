@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jonathan Jarvis Survey Form Project</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1 id="title">Survey Form Project</h1>
+    <p id="thanks">We appreciate the time taken to complete the survey</p>
+    <p id="description">Please fill out the form with your information</p>
+    <form id="survey-form">
+      <label id="name-label">Name<br></label>
+      <input id="name" type="text" required placeholder="Full Name Here""></input>
+      <label id="email-label"><br>Input your email<br></label>
+      <input id="email" type="email" required placeholder="@Email"></input>
+      <label id="number-label"><br>Input your phone number<br></label>
+      <input id="number" type="number" min="10" max="11" placeholder="123-456-7890"></input><br>
+      <p>Below select the option that best fits.<br>Where did you hear about us?</p>
+      <select id="dropdown">
+        <option>(Option Selection)</option>
+        <option>Social Media</option>
+        <option>Search Engine</option>
+        <option>Advertisement</option>
+        <option>Word of Mouth</option>
+        <option>Other</option>
+      </select><br>
+
+      <p class="text-questions">What do you plan on learning with our curriculum?</p>
+      <section id="radio-bullets1">
+        <input type="radio" value="1" name="radio-1" name="group-1">General Programming</input>
+        <input type="radio" value="1" name="radio-1" name="group-1">Web Design</input>
+        <input type="radio" value="1" name="radio-1" name="group-1">Data Analytics</input>
+        <input type="radio" value="1" name="radio-1" name="group-1">Machine Learning</input>
+        <input type="radio" value="1" name="radio-1" name="group-1">Scientific Computing</input>
+        <input type="radio" value="1" name="radio-1" name="group-1">Game Development</input><br>
+
+      <p class="text-questions">What caused you to be intrested in computer science?</p>
+      <section id="radio-bullets2">
+        <input type="radio" value="2" name="radio-2" name="group-2">Hobby</input>
+        <input type="radio" value="2" name="radio-2" name="group-2">Job Opportunities</input>
+        <input type="radio" value="2" name="radio-2" name="group-2">Recommended</input>
+        <input type="radio" value="2" name="radio-2" name="group-2">Other</input><br>
+      </section>
+        </section>
+      <p class="text-questions">What else would you like to see to improve our curriculum?</p>
+        <input type="checkbox" value="1">More Courses</input>
+        <input type="checkbox" value="2">Various Ways of Learning</input>
+        <input type="checkbox" value="3">Other (Enter in the textbox below)</input><br>
+        <br><textarea placeholder="I would like..."></textarea><br>
+        <button id="submit" type="submit">Submit</button>
+  </body>
+</html>
